@@ -1,0 +1,7 @@
+{
+  "name": "hpnewcolumnsproject",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,33 @@
+<h2 class="screen-align">Createstudent</h2>
+<div id="template-il9i" class="row">
+    <div id="template-iicg" class="cell">
+        <label id="template-iols" class="label">Name</label>
+        <input id="template-i4c3" placeholder="Enter name" [(ngModel)]="student.name"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-itpc" class="cell">
+        <label id="template-ifbc" class="label">Email</label>
+        <input id="template-ip45" placeholder="Enter email" [(ngModel)]="student.email"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-ild2" class="cell">
+        <label id="template-i16e" class="label">Department</label>
+        <input id="template-irvrt" placeholder="Enter department"
+        [(ngModel)]="student.department" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+</div>
+<div id="template-igf9j" class="row">
+    <div id="template-iumz6" class="cell">
+        <label id="template-izocn" class="label">College</label>
+        <input id="template-ivgqr" placeholder="Enter college"
+        [(ngModel)]="student.college" [ngModelOptions]="{standalone: true}" class="input form-control"
+        />
+    </div>
+    <div id="template-i68zg" class="cell">
+        <label id="template-i089v" class="label">Place</label>
+        <input id="template-ik5z5" placeholder="Enter place" [(ngModel)]="student.place"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
+<button id="template-iggth" (click)="GpCreate()" class="button btn btn-primary">Create</button>
