@@ -82,7 +82,7 @@ services:
     image: student-1747
     container_name: student-1747
     ports: 
-      - 8005:8005
+      - 8009:8009
     env_file: .env
     depends_on:
       - mongo
@@ -92,7 +92,7 @@ services:
     image: department-1747
     container_name: department-1747
     ports: 
-      - 8006:8006
+      - 8010:8010
     env_file: .env
     depends_on:
       - mongo
@@ -102,7 +102,7 @@ services:
     image: college-1747
     container_name: college-1747
     ports: 
-      - 8007:8007
+      - 8011:8011
     env_file: .env
     depends_on:
       - mongo
@@ -112,7 +112,7 @@ services:
     image: place-1747
     container_name: place-1747
     ports: 
-      - 8008:8008
+      - 8012:8012
     env_file: .env
     depends_on:
       - mongo
